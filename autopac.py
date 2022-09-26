@@ -12,7 +12,7 @@ if there is no argument, print usage and exit
 '''
 
 if len(sys.argv) < 2:
-    print("# Usage: sudo autopac.py [query] #".center(60, '-'))
+    print("# Usage: sudo autopac.py [arg1] [arg2] ... #".center(60, '-'))
     sys.exit()
 
 args = []
